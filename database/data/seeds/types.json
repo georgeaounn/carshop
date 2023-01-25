@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Sedan"
+    },
+    {
+        "name": "Coupe"
+    },
+    {
+        "name": "Sports Car"
+    },
+    {
+        "name": "Convertible"
+    },
+    {
+        "name": "SUV"
+    },
+    {
+        "name": "Mini-Van"
+    },
+    {
+        "name": "Pickup Truck"
+    }
+]

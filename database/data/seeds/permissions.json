@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "get-all-transactions",
+        "roles" : [1]
+    },
+    {
+        "name" : "export-transactions",
+        "roles" : [1]
+    },
+    {
+        "name" : "get-user-by-id",
+        "roles" : [1]
+    },
+    {
+        "name" : "get-all-users",
+        "roles" : [1]
+    },
+    {
+        "name" : "create-car",
+        "roles" : [1]
+    },
+    {
+        "name" : "update-car",
+        "roles" : [1]
+    },
+    {
+        "name" : "delete-car",
+        "roles" : [1]
+    },
+    {
+        "name" : "create-transaction",
+        "roles" : [2]
+    }
+
+
+
+
+]

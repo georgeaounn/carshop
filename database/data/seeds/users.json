@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "Car Shop admin",
+        "email" : "carshopadmin@yopmail.com",
+        "password" : "Mypwd@123",
+        "phone_number": "+96176379585",
+        "role_id" : 1,
+        "date_of_birth" : "2000-03-01"
+    }
+]
