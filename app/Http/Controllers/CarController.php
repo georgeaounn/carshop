@@ -207,7 +207,7 @@ class CarController extends Controller
                 return $this->handleReturn(false, null, $validation->errors()->first());
 
             $cars = $this->carRepository->getAllCars($request);
-            return $this->handleReturn(true, $cars, null);
+            return count($cars) ? $this->handleReturn(true, $cars, null) : $this->handleReturn(true, null, "No cars found");
         } catch (Exception $ex) {
             return $this->handleReturn(false, null, $ex->getMessage());
         }
