@@ -522,7 +522,7 @@ class UserController extends Controller
             DB::beginTransaction();
 
             //-- update user
-            $request->id = Auth::user()->id;
+            $request->user_id = Auth::user()->id;
             $this->userRepository->updateUser($request);
 
             DB::commit();
